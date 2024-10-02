@@ -1,0 +1,40 @@
+#manage medical records in hospital
+#drf
+#get models
+#custom user model
+#roles
+#authentication - django default
+
+#models
+#hospital
+#patient
+#medical_record
+#user
+
+use cases
+functional reqs
+8
+
+add more fields to the custom user model
+use hyperlinked model serializer
+
+
+
+TODO:
+confirm functional requirements
+problem statement
+erd
+
+
+implementation for permissions:
+    Permission:
+        patient
+        createdAt
+        updatedAt
+        hospital
+        patient
+
+only permitted hospitals can CRUD medical records for certain patient
+
+how to login a user with djoser
+
